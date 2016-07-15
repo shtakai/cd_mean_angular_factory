@@ -1,0 +1,22 @@
+{
+  "name": "cd_mean_angular_buildcontroller",
+  "homepage": "https://github.com/shtakai/cd_mean_angular_buildcontroller",
+  "authors": [
+    "Alyson Takai <shtakai@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "bootstrap": "^3.3.6",
+    "lodash": "^4.13.1"
+  }
+}
