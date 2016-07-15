@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>factory</title>
+</head>
+<body ng-app="myApp">
+  <div class="container">
+    <div ng-controller="studentsController">
+      {{ students }}
+      <div ng-repeat="s in students">{{ s }}</div>
+    </div>
+
+  </div>
+</body>
+<script src="./bower_components/angular/angular.js"></script>
+<script src="./bower_components/lodash/lodash.js"></script>
+<script src="./main.js"></script>
+</html>
